@@ -26,9 +26,9 @@
       "name_website":"Mê đọc truyện tranh",
       "url_website":"https://www.medoctruyentranh.net/",
       "find_comic":{
-         "elementContainer":"div.wrap > div.detail_con > div.detail > div.detail_info",
-         "elementTitle":"div.detail_infos > h1#title",
-         "elementAuthor":"div.detail_infos > div.other_infos > div > font",
+         "elementContainer":"div#__next > div > div.story_summary",
+         "elementTitle":"div.story_content > h1#title",
+         "elementAuthor":"div.story_content > p",
          "elementStatus":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.status.row > p.col-xs-8",
          "elementCountView":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.row > p.col-xs-8",
          "elementDescription":"div.detail-content > p",
