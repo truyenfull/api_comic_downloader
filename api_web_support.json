@@ -1,6 +1,6 @@
 [
    {
-      "name_website":"NetTruyen",
+      "name_website":"NetTruyenPro.com",
       "url_website":"http://www.nettruyenpro.com/",
       "find_comic":{
          "elementContainer":"div.container > div.row > div#ctl00_divCenter > article#item-detail",
