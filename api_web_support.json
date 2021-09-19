@@ -1,7 +1,30 @@
 [
    {
-      "name_website":"NetTruyenPro.com",
+      "name_website":"Net truyện PRO",
       "url_website":"http://www.nettruyenpro.com/",
+      "find_comic":{
+         "elementContainer":"div.container > div.row > div#ctl00_divCenter > article#item-detail",
+         "elementTitle":"h1.title-detail",
+         "elementAuthor":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.author.row > p.col-xs-8",
+         "elementStatus":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.status.row > p.col-xs-8",
+         "elementCountView":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.row > p.col-xs-8",
+         "elementDescription":"div.detail-content > p",
+         "elementThumbnail":"div.detail-info > div.row > div.col-xs-4.col-image > img",
+         "elementUrlComic":"div.detail-info > div.row > div.col-xs-8.col-info > div.mrt5.mrb10 > a",
+         "elementChapters":"div#nt_listchapter > nav > ul > li.row"
+      },
+      "list_chapter":{
+         "elementUrlChapter":"div.col-xs-5.chapter > a",
+         "elementTimeCreate":"div.col-xs-4.text-center.small",
+         "elementCountView":"div.col-xs-3.text-center.small"
+      },
+      "download_comic":{
+         "elementsPage":"div.container > div.row > div#ctl00_divCenter > div.reading > div.reading-detail.box_doc > div.page-chapter > img"
+      }
+   },
+   {
+      "name_website":"Mê đọc truyện tranh",
+      "url_website":"https://www.medoctruyentranh.net/",
       "find_comic":{
          "elementContainer":"div.container > div.row > div#ctl00_divCenter > article#item-detail",
          "elementTitle":"h1.title-detail",
