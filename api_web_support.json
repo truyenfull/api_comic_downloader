@@ -21,28 +21,5 @@
       "download_comic":{
          "elementsPage":"div.container > div.row > div#ctl00_divCenter > div.reading > div.reading-detail.box_doc > div.page-chapter > img"
       }
-   },
-   {
-      "name_website":"Mê đọc truyện tranh",
-      "url_website":"https://www.medoctruyentranh.net/",
-      "find_comic":{
-         "elementContainer":"div#__next > div > div.story_summary",
-         "elementTitle":"div.story_content > h1#title",
-         "elementAuthor":"div.story_content > p",
-         "elementStatus":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.status.row > p.col-xs-8",
-         "elementCountView":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.row > p.col-xs-8",
-         "elementDescription":"div.detail-content > p",
-         "elementThumbnail":"img",
-         "elementUrlComic":"div.detail-info > div.row > div.col-xs-8.col-info > div.mrt5.mrb10 > a",
-         "elementChapters":"div.chapter_con > div.chapters > div.chapter_pages > a"
-      },
-      "list_chapter":{
-         "elementUrlChapter":"div.col-xs-5.chapter > a",
-         "elementTimeCreate":"div.col-xs-4.text-center.small",
-         "elementCountView":"div.col-xs-3.text-center.small"
-      },
-      "download_comic":{
-         "elementsPage":"div.container > div.row > div#ctl00_divCenter > div.reading > div.reading-detail.box_doc > div.page-chapter > img"
-      }
    }
 ]
