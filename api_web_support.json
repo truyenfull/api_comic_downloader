@@ -26,15 +26,15 @@
       "name_website":"Mê đọc truyện tranh",
       "url_website":"https://www.medoctruyentranh.net/",
       "find_comic":{
-         "elementContainer":"div.container > div.row > div#ctl00_divCenter > article#item-detail",
-         "elementTitle":"h1.title-detail",
-         "elementAuthor":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.author.row > p.col-xs-8",
+         "elementContainer":"div.wrap > div.detail_con > div.detail > div.detail_info",
+         "elementTitle":"div.detail_infos > h1#title",
+         "elementAuthor":"div.detail_infos > div.other_infos > div > font",
          "elementStatus":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.status.row > p.col-xs-8",
          "elementCountView":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.row > p.col-xs-8",
          "elementDescription":"div.detail-content > p",
-         "elementThumbnail":"div.detail-info > div.row > div.col-xs-4.col-image > img",
+         "elementThumbnail":"img",
          "elementUrlComic":"div.detail-info > div.row > div.col-xs-8.col-info > div.mrt5.mrb10 > a",
-         "elementChapters":"div#nt_listchapter > nav > ul > li.row"
+         "elementChapters":"div.chapter_con > div.chapters > div.chapter_pages > a"
       },
       "list_chapter":{
          "elementUrlChapter":"div.col-xs-5.chapter > a",
