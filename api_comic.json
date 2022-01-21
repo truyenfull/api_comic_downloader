@@ -31,10 +31,10 @@
          "elementAuthor":"div > div.story_summary > div.story_content > p",
          "elementStatus":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.status.row > p.col-xs-8",
          "elementCountView":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.row > p.col-xs-8",
-         "elementDescription":"div.detail-content > p",
+         "elementDescription":"div > div.story_header > p",
          "elementThumbnail":"div > div.story_summary > div.story_cover > img",
-         "elementUrlComic":"div.detail-info > div.row > div.col-xs-8.col-info > div.mrt5.mrb10 > a",
-         "elementChapters":"div.ReactVirtualized__Grid__innerScrollContainer > a"
+         "elementUrlComic":"div > div.breadCrumb > div.breadCrumbCon > a",
+         "elementChapters":"div.ReactVirtualized__Grid__innerScrollContainer  > a"
       },
       "list_chapter":{
          "elementUrlChapter":"div.col-xs-5.chapter > a",
