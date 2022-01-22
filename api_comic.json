@@ -83,12 +83,12 @@
          "elementChapters":"div.block02 > div.box > div.works-chapter-list > div.works-chapter-item.row"
       },
       "list_chapter":{
-         "elementUrlChapter":"div.col-xs-5.chapter > a",
-         "elementTimeCreate":"div.col-xs-4.text-center.small",
+         "elementUrlChapter":"ddiv.col-md-10.col-sm-10.col-xs-8 > a",
+         "elementTimeCreate":"div.col-md-2.col-sm-2.col-xs-4.text-right",
          "elementCountView":"div.col-xs-3.text-center.small"
       },
       "download_comic":{
-         "elementsPage":"div.container > div.row > div#ctl00_divCenter > div.reading > div.reading-detail.box_doc > div.page-chapter > img"
+         "elementsPage":"div.block > div.story-see-content > img.lazy"
       }
    }
 ]
