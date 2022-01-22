@@ -44,5 +44,28 @@
       "download_comic":{
          "elementsPage":"div.container > div.row > div#ctl00_divCenter > div.reading > div.reading-detail.box_doc > div.page-chapter > img"
       }
+   },
+   {
+      "name_website":"Truyện QQ",
+      "url_website":"http://truyenqqvip.com/",
+      "find_comic":{
+         "elementContainer":"div#__next",
+         "elementTitle":"div.block01 > div.center > h1[itemprop=name]",
+         "elementAuthor":"div.block01 > div.center > div.txt > p.info-item -> a.org",
+         "elementStatus":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.status.row > p.col-xs-8",
+         "elementCountView":"div.detail-info > div.row > div.col-xs-8.col-info > ul.list-info > li.row > p.col-xs-8",
+         "elementDescription":"div > div.story_header > p",
+         "elementThumbnail":"div.block01 > div.left > img",
+         "elementUrlComic":"div#path > ol.breadcrumb > li > a",
+         "elementChapters":"div.block02 > div.box > div.works-chapter-list > div.works-chapter-item.row"
+      },
+      "list_chapter":{
+         "elementUrlChapter":"div.col-xs-5.chapter > a",
+         "elementTimeCreate":"div.col-xs-4.text-center.small",
+         "elementCountView":"div.col-xs-3.text-center.small"
+      },
+      "download_comic":{
+         "elementsPage":"div.container > div.row > div#ctl00_divCenter > div.reading > div.reading-detail.box_doc > div.page-chapter > img"
+      }
    }
 ]
