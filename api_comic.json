@@ -83,7 +83,7 @@
          "elementChapters":"div.block02 > div.box > div.works-chapter-list > div.works-chapter-item.row"
       },
       "list_chapter":{
-         "elementUrlChapter":"ddiv.col-md-10.col-sm-10.col-xs-8 > a",
+         "elementUrlChapter":"div.col-md-10.col-sm-10.col-xs-8 > a",
          "elementTimeCreate":"div.col-md-2.col-sm-2.col-xs-4.text-right",
          "elementCountView":"div.col-xs-3.text-center.small"
       },
