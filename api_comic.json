@@ -1,7 +1,7 @@
 [
    {
       "name_website":"Net truyện PRO",
-      "url_website":"http://www.nettruyenmoi.com/",
+      "url_website":"http://www.nettruyenone.com/",
       "find_comic":{
          "elementContainer":"div.container > div.row > div#ctl00_divCenter > article#item-detail",
          "elementTitle":"h1.title-detail",
